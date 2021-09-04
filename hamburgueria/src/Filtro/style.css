@@ -1,0 +1,37 @@
+input{
+    padding: 10px;
+    width: 80vw;
+    text-align: center;
+    margin: 10px;
+    border: 5px;
+    font-size: 20px;
+}
+.filter-button{
+    display: inline;
+    width: 90vw;
+    margin-right: 10px;
+    
+}
+.filter-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width:768px){
+    input{
+        width: 30vw;
+        margin: none;
+        
+    }
+    .filter-section{
+        display: flex;
+        flex-direction: row;
+        
+    }
+    .filter-button{
+        width: 15vw;
+        margin: none;
+    }
+}

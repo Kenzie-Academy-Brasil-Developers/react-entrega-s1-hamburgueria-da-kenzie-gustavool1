@@ -1,0 +1,41 @@
+h2{
+    color: white;
+}
+.menu-container{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+    width: 100vw;
+}
+
+.menu-container li{
+    border: none;
+    width: 40%;
+    margin: 10px 10px;
+    border-radius: 4px;
+    text-align: center;
+    background-color: #c4d7eec9  ;
+    color: white;
+    
+}
+
+
+@media screen and (min-width:768px){
+.menu-container{
+    display: flex;
+    justify-content: center;
+}
+.menu-container li{
+    width: 8%;
+    min-width: 100px;
+    padding: 1%;
+    margin: 1%;
+   
+}
+.menu-container li:first-child{
+    margin: 0;
+}
+}
